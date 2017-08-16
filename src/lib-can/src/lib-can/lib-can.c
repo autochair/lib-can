@@ -50,10 +50,10 @@
 #include <stdint.h>
 
 #include <sys/socket.h> /* for sa_family_t */
-#include <linux/can.h>
-#include <linux/can/error.h>
+#include <lib-can/linux/can.h>
+#include <lib-can/linux/can/error.h>
 
-#include "lib.h"
+#include "lib-can/lib-can.h"
 
 #define CANID_DELIM '#'
 #define DATA_SEPERATOR '.'
