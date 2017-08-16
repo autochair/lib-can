@@ -17,7 +17,7 @@
 #ifndef CAN_RAW_H
 #define CAN_RAW_H
 
-#include <socketcan/can.h>
+#include <lib-can/socketcan/can.h>
 
 #define SOL_CAN_RAW (SOL_CAN_BASE + CAN_RAW)
 
