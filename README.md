@@ -16,7 +16,7 @@ cd
 mkdir catkin_ws #if a workspace does not already exist
 cd catkin_ws
 git clone https://github.com/rosmod/lib-can.git src/lib-can
-catkin build can
+catkin build lib-can
 ```
 
 Update Library:
@@ -24,11 +24,11 @@ Update Library:
 
 ```bash
 cd ~/catkin_ws
-catkin clean can
+catkin clean lib-can
 cd src/lib-can
 git pull
 cd ..
-catkin build can
+catkin build lib-can
 ```
 
 
