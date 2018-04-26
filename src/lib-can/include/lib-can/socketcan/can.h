@@ -17,6 +17,7 @@
 #ifndef CAN_H
 #define CAN_H
 
+#include <sys/socket.h> /* for sa_family_t */
 #include <linux/version.h>
 #include <linux/types.h>
 #include <linux/socket.h>
